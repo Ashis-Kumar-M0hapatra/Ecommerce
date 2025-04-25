@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
 "deploy": "gh-pages -b main -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts start"
 
   },
   "dependencies": {
