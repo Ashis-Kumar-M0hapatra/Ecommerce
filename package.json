@@ -1,18 +1,13 @@
 {
   "name": "e-commerce-website-using-react",
   "private": true,
-  "homepage": "https://ashis-kumar-m0hapatra.github.io/e-commerce-website-using-react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -b main -d build",
-    "start": "react-scripts start"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
