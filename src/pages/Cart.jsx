@@ -1,11 +1,10 @@
 import React from 'react'
-import EmptyCart from '../assets/Images/abandoned-cart.png'
 import { Link } from 'react-router-dom'
 import Home from './Home'
 const Cart = () => {
   return (
     <div className='flex flex-col items-center h-screen'>
-       <img src={EmptyCart} alt="" />
+       <img src="/public/assets/abandoned-cart.png" alt="" />
          <p className='text-2xl text-center font-bold text-red-900 mt-4'>
             Looks like you've not added anything! Don't make the cart sad! <br /> Go and explore our top excusive offers only for you
             </p>
