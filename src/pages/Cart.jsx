@@ -4,7 +4,7 @@ import Home from './Home'
 const Cart = () => {
   return (
     <div className='flex flex-col items-center h-screen'>
-       <img src="/public/assets/abandoned-cart.png" alt="" />
+       <img src="/assets/abandoned-cart.png" alt="" />
          <p className='text-2xl text-center font-bold text-red-900 mt-4'>
             Looks like you've not added anything! Don't make the cart sad! <br /> Go and explore our top excusive offers only for you
             </p>

@@ -24,7 +24,7 @@ const Home = () => {
           </ul>
         </div>
         <div className="w-full md:w-9/12 mt-8 md:mt-0 h-96 relative">
-          <img src="/public/assets/hero-image.png" alt="" className="h-full w-full" />
+          <img src="/assets/hero-image.png" alt="" className="h-full w-full" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
             <h1 className="text-7xl font-bold mb-5 drop-shadow-[3px_3px_1px_rgb(0,0,0,1)]">
               Shop the Latest{" "}
