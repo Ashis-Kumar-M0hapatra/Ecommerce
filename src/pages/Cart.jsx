@@ -29,9 +29,9 @@ const Cart = () => {
           <div className="lg:col-span-2 space-y-4">
             {cartItems.map((item) => (
               <div
-                key={item.id}
-                className="flex items-center border p-4 rounded-md shadow-sm gap-4"
-              >
+              key={item.id}
+              className="flex flex-col sm:flex-row items-center border p-4 rounded-md shadow-sm gap-4"
+            >            
                 <img
                   src={item.thumbnail}
                   alt={item.title}
@@ -47,7 +47,7 @@ const Cart = () => {
                   </p>
                 </div>
 
-                <div className="flex items-center ml-auto">
+                <div className="flex items-center ml-0 sm:ml-auto">
                   <button
                     onClick={() =>
                       updateQuantity(item.id, Math.max(1, item.quantity - 1))
@@ -67,13 +67,13 @@ const Cart = () => {
                   </button>
                 </div>
 
-                <div className="w-24 text-right font-semibold text-red-600 ml-4">
+                <div className="w-24 text-center font-semibold text-red-600 ml-0 sm:ml-auto">
                   ${item.price * item.quantity}
                 </div>
 
                 <button
                   onClick={() => removeFromCart(item.id)}
-                  className="ml-4 text-red-500 hover:text-red-700"
+                  className="ml-auto text-red-500 hover:text-red-700"
                 >
                   <FaTrash />
                 </button>
